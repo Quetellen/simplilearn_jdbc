@@ -1,4 +1,4 @@
-package com.simplilearn.simplilearn_jdbc;
+ package com.simplilearn.simplilearn_jdbc;
 
 import java.sql.Connection;
 import java.sql.Date;
@@ -103,6 +103,7 @@ public class _04_PrStSelectById {
 	    }
 
 	// We move this code from the main() method to make more readable
+	//Create the user with the data received in the ResultSet
 	
 	private static void createUser(String input, ResultSet rs) throws SQLException {
 
